@@ -1079,8 +1079,9 @@ footer{
 }
 .mobile-hamb-aa{
     position: absolute;
-    top: 564px;
+    bottom: 192px;
     left: 40px;
+
 }
 .mobile-info-text{
     font-size: 36px;
@@ -1567,6 +1568,8 @@ screen and (max-width: 1199px) {
     .hero{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(Imagies/Dark-bg.jpg);
+    padding-top: 112px;
+    padding-bottom: 112px;
     }
     .container{
         width: 100%;
@@ -1578,9 +1581,7 @@ screen and (max-width: 1199px) {
         display: flex;
         flex-direction: column;
         gap: 4px;
-        position: absolute;
-        top: 24px;
-        right: 16px;
+        margin-left: auto;
     }
     .text77{
         font-weight: 400;
@@ -1625,6 +1626,7 @@ screen and (max-width: 1199px) {
         margin: 0 auto;
         width: 90%;
         gap: 24px;
+        row-gap: 72px;
     }
     .list-item4{
         width: 356px;
@@ -1671,6 +1673,17 @@ screen and (max-width: 1199px) {
     .hamburher{
         display: none;
     }
+    .photos{
+        display: none;
+    }
+    .page1text{
+        padding-bottom: 96px;
+        padding-bottom: 96px;
+    }
+    .gray{
+        padding-top: 96px;
+        padding-bottom: 104px;
+    }
 }
 @media screen and (max-width: 950px){
     .container{
@@ -1690,7 +1703,7 @@ screen and (max-width: 1199px) {
     .uliconsbottom{
         display: flex;
         flex-wrap: wrap;
-        width: 80%;
+        width: 70vh;
         margin: 0 auto;
         gap: 24px;
         row-gap: 64px;
@@ -1701,6 +1714,7 @@ screen and (max-width: 1199px) {
         margin: 0 auto;
         width: 100%;
         gap: 24px;
+        row-gap: 72px;
     }
 
 }
@@ -1718,6 +1732,8 @@ screen and (max-width: 768px) {
     .hero{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(Imagies/Dark-bg-mob.jpg);
+    padding-top: 112px;
+    padding-bottom: 112px;
     }
     .h1{
         width: 318px;
@@ -1746,7 +1762,6 @@ screen and (max-width: 768px) {
     }
     .footerIcons{
         margin: 0 auto;
-        margin-top: 72px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1754,7 +1769,6 @@ screen and (max-width: 768px) {
     }
     .footer-buttonss{
         margin: 0 auto;
-        margin-top: 72px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1781,8 +1795,8 @@ screen and (max-width: 768px) {
     }
     .uliconsbottom{
         display: flex;
-        flex-direction: column;
         align-items: center;
+        width: 50vh;
     }
     .iconsvgmain{
         display: none;
@@ -1792,6 +1806,7 @@ screen and (max-width: 768px) {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 72px;
     }
     .photo12{
         flex-direction: column;
@@ -1801,6 +1816,9 @@ screen and (max-width: 768px) {
         flex-direction: column;
     }
     .headline1{
+        display: none;
+    }
+    .photos{
         display: none;
     }
     .list-item3{
@@ -1820,5 +1838,19 @@ screen and (max-width: 768px) {
     }
     .hamburher{
         display: block;
+    }
+    .footer1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .page1text{
+        padding-bottom: 96px;
+        padding-top: 96px;
+    }
+    .gray{
+        padding-top: 96px;
+        padding-bottom: 104px;
     }
 }
