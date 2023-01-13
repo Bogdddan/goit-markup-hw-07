@@ -1754,7 +1754,7 @@ screen and (max-width: 950px) {
     .uliconsbottom{
         display: flex;
         flex-wrap: wrap;
-        width: 70vh;
+        width: 80vh;
         margin: 0 auto;
         gap: 24px;
         row-gap: 64px;
@@ -1861,7 +1861,7 @@ screen and (max-width: 767px) {
     .uliconsbottom{
         display: flex;
         align-items: center;
-        width: 52vh;
+        width: 50.52vh;
         flex-wrap: wrap;
         gap: 16px;
         row-gap: 72px;
