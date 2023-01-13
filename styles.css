@@ -293,6 +293,10 @@ a{
 }
 
 
+
+
+
+
 h1{
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -1554,25 +1558,40 @@ footer{
     height: 24px;
 }
 
-
-
-
-
-
+@media screen and (min-width: 1200px) {
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(./Imagies/komp@2.jpg);
+    }
+}
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-width: 1200px){
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(./Imagies/komp.jpg);
+    }
+}
 
 @media screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx),
 screen and (max-width: 1199px) {
-    .hero{
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    .hero{background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(./Imagies/tabl@2x.jpg);
         }
 }
 @media screen and (max-width: 1199px) {
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(./Imagies/tabl.jpg);
+    padding-top: 112px;
+    padding-bottom: 112px;
+    }
     .zaholovok{
         font-family: 'Roboto', sans-serif;
-        width: 492px;
+        max-width: 492px;
         font-size: 56px;
         height: 80px;
         font-weight: 700;
@@ -1582,12 +1601,6 @@ screen and (max-width: 1199px) {
     }
     .link0{
         margin-top: 90px;
-    }
-    .hero{
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(./Imagies/tabl.jpg);
-    padding-top: 112px;
-    padding-bottom: 112px;
     }
     .container{
         width: 100%;
@@ -1710,15 +1723,9 @@ screen and (max-width: 1199px) {
     }
 }
 
-@media screen and (min-device-pixel-ratio: 2),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx),
-screen and (max-width: 950px){
-    .hero{
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(./Imagies/tabl@2x.jpg);
-        }
-}
+
+
+
 @media
 screen and (max-width: 950px) {
     .h1{
@@ -1730,10 +1737,6 @@ screen and (max-width: 950px) {
         line-height: 1.1;
         letter-spacing: 2%;
     }
-    .hero{
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(./Imagies/tabl.jpg);
-        }
     .container{
         width: 100%;
         padding-left: 15px;
@@ -1771,15 +1774,17 @@ screen and (max-width: 950px) {
 
 
 
+
+
 @media screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx),
-screen and (max-width: 768px) {
+screen and (max-width: 767px) {
     .hero{background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(./Imagies/mob@2x.jpg);
         }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .zaholovok{
         font-family: 'Roboto', sans-serif;
         width: 318px;
@@ -1808,6 +1813,7 @@ screen and (max-width: 768px) {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: 0 auto;
     }
     .footer{
         margin: 0 auto;
@@ -1824,7 +1830,7 @@ screen and (max-width: 768px) {
         flex-direction: column;
     }
     .footer-buttonss{
-        /* margin: 0 auto; */
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1833,9 +1839,8 @@ screen and (max-width: 768px) {
     .footer-email{
         width: 396px;
         height: 40px;
-        margin: 0;
-        align-items: center;
-        justify-content: center;
+        margin-right: 0;
+        
     }
     .footer-button{
         margin: 0 auto;
@@ -1876,6 +1881,7 @@ screen and (max-width: 768px) {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
     .footer1{
         align-items: center;
