@@ -1556,18 +1556,23 @@ footer{
 
 
 
+
+
+
+
 @media screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx),
 screen and (max-width: 1199px) {
-    .hero{background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../Imagies/tabl@2x.jpg);
         }
 }
 @media screen and (max-width: 1199px) {
     .zaholovok{
         font-family: 'Roboto', sans-serif;
-        max-width: 492px;
+        width: 492px;
         font-size: 56px;
         height: 80px;
         font-weight: 700;
@@ -1580,7 +1585,7 @@ screen and (max-width: 1199px) {
     }
     .hero{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../Imagies/tabl@2x.jpg);
+        url(../Imagies/tabl.jpg);
     padding-top: 112px;
     padding-bottom: 112px;
     }
@@ -1705,14 +1710,14 @@ screen and (max-width: 1199px) {
     }
 }
 
-
-
-
 @media screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx),
 screen and (max-width: 950px){
-
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../Imagies/tabl@2x.jpg);
+        }
 }
 @media
 screen and (max-width: 950px) {
@@ -1725,6 +1730,10 @@ screen and (max-width: 950px) {
         line-height: 1.1;
         letter-spacing: 2%;
     }
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../Imagies/tabl.jpg);
+        }
     .container{
         width: 100%;
         padding-left: 15px;
@@ -1757,6 +1766,9 @@ screen and (max-width: 950px) {
     }
 
 }
+
+
+
 
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -1793,6 +1805,7 @@ screen and (max-width: 768px) {
         display: none;
     }
     .footer-nav:last-child{
+        display: flex;
         align-items: center;
         justify-content: center;
     }
@@ -1811,16 +1824,18 @@ screen and (max-width: 768px) {
         flex-direction: column;
     }
     .footer-buttonss{
-        margin: 0 auto;
+        /* margin: 0 auto; */
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
     .footer-email{
-        width: 300px;
+        width: 396px;
         height: 40px;
         margin: 0;
+        align-items: center;
+        justify-content: center;
     }
     .footer-button{
         margin: 0 auto;
