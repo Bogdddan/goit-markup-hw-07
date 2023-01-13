@@ -1862,7 +1862,10 @@ screen and (max-width: 767px) {
     .uliconsbottom{
         display: flex;
         align-items: center;
-        width: 50vh;
+        width: 52vh;
+        flex-wrap: wrap;
+        gap: 16px;
+        row-gap: 72px;
     }
     .iconsvgmain{
         display: none;
